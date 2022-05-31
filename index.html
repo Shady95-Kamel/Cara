@@ -5,8 +5,11 @@
             Cara
         </title>
         <link rel="stylesheet" href="style/bootstrap.css">
-        <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/all.min.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
         
@@ -48,7 +51,7 @@
           <div class="Main">
               <div class="container">
                   <div class="MainContain d-flex flex-column justify-content-center ml-3">                  
-              <h4 >Trade-in-offer</h4>
+              <h4 class="animate__animated animate__heartBeat animate__delay-1s" >Trade-in-offer</h4>
               <h1>Super value deals</h1>
               <h1 class="text-success" >On all products</h1>
               <p>save more with coupons & up to 70% off !</p>
@@ -59,37 +62,37 @@
 
         <div class="container ">
         <div class="Second d-flex justify-content-between flex-wrap mt-5">
-          <div class="card" style="width: 15rem;">
+          <div class="card wow animate__animated animate__backInLeft" style="width: 15rem;">
             <img class="card-img-top" src="images/e1.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text bg-warning">Free Shipping</p>
             </div>
           </div>
-          <div class="card" style="width: 15rem;">
+          <div class="card wow animate__animated animate__backInDown" style="width: 15rem;">
             <img class="card-img-top" src="images/e2.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text bg-secondary">Online Order</p>
             </div>
           </div>
-          <div class="card" style="width: 15rem;">
+          <div class="card wow animate__animated animate__backInDown" style="width: 15rem;">
             <img class="card-img-top" src="images/e3.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text bg-success">Save Money</p>
             </div>
           </div>
-          <div class="card" style="width: 15rem;">
+          <div class="card wow animate__animated animate__backInDown" style="width: 15rem;">
             <img class="card-img-top" src="images/e4.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text bg-info">Promotions</p>
             </div>
           </div>
-          <div class="card" style="width: 15rem;">
+          <div class="card wow animate__animated animate__backInRight" style="width: 15rem;">
             <img class="card-img-top" src="images/e5.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text bg-warning">Happy Sell</p>
             </div>
           </div>
-          <div class="card" style="width: 15rem; margin-top: 20px;">
+          <div class="card wow animate__animated animate__backInUp" style="width: 15rem; margin-top: 20px;">
             <img class="card-img-top" src="images/e6.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text bg-primary">F24/7 Support</p>
@@ -621,6 +624,10 @@
         </div>
       </div>
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js  "></script>
+      <script>
+      new WOW().init();
+      </script>
 
         <script src="js/bootstrap.js"></script>
         <script src="js/popper.js"></script>
